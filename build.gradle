@@ -20,7 +20,7 @@ dependencies {
 }
 
 compileKotlin2Js.kotlinOptions.sourceMap = true
-compileKotlin2Js.kotlinOptions.outputFile = "${buildDir}/js/app.js"
+compileKotlin2Js.kotlinOptions.outputFile = "${projectDir}/web/js/app.js"
 compileKotlin2Js.kotlinOptions.suppressWarnings = true
 compileKotlin2Js.kotlinOptions.verbose = true
 
