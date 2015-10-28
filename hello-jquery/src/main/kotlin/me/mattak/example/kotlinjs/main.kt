@@ -1,11 +1,7 @@
-package me.mattak.example.kotlinjs
+package me.mattak.kotlinjs.hellojquery
 
-import kotlin.browser.*
-import kotlin.js.*
-
-@native("$")
-val jquery : dynamic = noImpl
+import jquery.jq
 
 fun main(args: Array<String>) {
-    jquery("#content").html("hello world")
+    jq("#content").text("hello world")
 }
